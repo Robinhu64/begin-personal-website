@@ -5,7 +5,6 @@ const app = express()
 
 app.get('/square', (req, res) => {
     console.log('square')
-    commands[0] = 1
     res.send("square added")
 })
 // Customize your site by changing the data below
